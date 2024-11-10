@@ -42,7 +42,7 @@ jobs:
 
       - name: Tag Docker image for ECR
         run: |
-          docker tag jungle-run-image:latest ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.$AWS_REGION.amazonaws.com/junglerun:latest
+          docker tag jungle-run-image:latest ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/junglerun:latest
 
       - name: Push Docker image to Amazon ECR
         run: |
