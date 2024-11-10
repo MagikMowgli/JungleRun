@@ -1,5 +1,5 @@
 # JungleRun
-My CI/CD Pipeline
+My CI/CD Pipeline *Finished*
 
 As of now currently, my CI/CD pipeline has automated all steps bar the deployment onto a cluster. I've highlighted the steps below.
 1) Application gets uploaded.
